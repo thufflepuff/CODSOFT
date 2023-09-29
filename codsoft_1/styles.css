@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b3f57;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(12, 32, 148);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(9, 2, 27);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: purple;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0;
+    background-image: url('akira.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    text-align: left;
+    color: #333;
+    width: 50%;
+    margin: 0 0 0 100px;
+}
+
+.leftSection div {
+    font-size: 1.25rem;
+    margin-top: 20px; /* Change margin to margin-top */
+    padding-bottom: 20px; /* Add padding-bottom to create space between elements */
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px; 
+    align-self: flex-start;
+}
+
+.rightSection {
+    font-size: 2.5rem;
+    text-align: right;
+    color: #333;
+    width: 50%;
+    margin: 0 50px 20px 0;
+}
+
+.rightSection div {
+    font-size: 1.25rem;
+}
+
+
+.progress-line {
+    width: 100%;
+    height: 2px; /* Adjust the height as needed */
+    background-color: #4400ff;
+}
+
+.progress-line span {
+    display: block;
+    height: 100%;
+    background-color: white;
+}
+
+
+.purple {
+    color: purple;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: purple;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 150vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 100px;
+    width: 500px;
+    left: -103px;
+    font-size: 1.25rem;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 180px;
+    color: gray;
+    width: 1000px;
+    left: -400px;
+    font-size: 15px;
+
+}
+
+.secondSection h2 {
+    font-size: 1.9rem;
+    margin: 350px 0;
+}
+
+.secondSection .box2 {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: -300px 0;
+    display: flex;
+}
+
+.vertical-desc2 {
+    position: relative;
+    top: 205px;
+    color: gray;
+    width: 1000px;
+    left: -400px;
+    font-size: 15px;
+}
+
+.vertical-title2 {
+    position: relative;
+    top: 100px;
+    width: 500px;
+    left: -103px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: rgb(20, 17, 22);
+    height: 310px;
+    justify-content: flex-start;
+}
+
+.footer {
+    display: flex;
+    margin: 23px 50px;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.col {
+    margin: 23px 50px;
+}
+
+.col h2 {
+    width: fit-content;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.col h4 {
+    width: fit-content;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.col h5 {
+    width: fit-content;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .far {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background-color: transparent;
+    color: #ccc;
+    border: 0;
+    outline: no;
+}
+
+form button {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fas {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.social-icons {
+    text-align: right;
+}
+
+.social-icons .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid rgb(204, 13, 13);
+    margin: 20px auto;
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+}
+
+.imageAboutPage {
+    padding: 10px;
+    width: 20%;
+    align-self: flex-start;
+    box-shadow: white;
+    margin-inline-end: 0%;
+    margin-inline-start: 50%;
+}
+
+.row mt-4 [
+    con
+]
+
+.about{
+    container: flex;
+}
+
+.about .col-lg-8 {
+    margin-right: 50%;
+    color: white;
+
+}
+
+.about .row {
+    container: flex;
+    color: white;
+}
+
+.contact form {
+    width: 66%;
+    margin: 0px auto;
+}
+
+.contact input,
+textarea {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+}
+
+
+.contact button {
+    width: 100%;
+    height: 62px;
+    float: left;
+    padding: 10px;
+    background: #ffbf35;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+
+
+.contact h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 60px;
+    color: #ffbf35;
+}
+
+.contact h4 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #a1a1a1;
+}
